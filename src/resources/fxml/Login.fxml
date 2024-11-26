@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.conecta4.controllers.LoginController" spacing="10" alignment="CENTER">
+    <Label text="Conecta4 - Login" style="-fx-font-size: 18px;" />
+    <TextField fx:id="usernameField" promptText="Nombre de usuario" />
+    <PasswordField fx:id="passwordField" promptText="Contraseña" />
+    <Button text="Iniciar sesión" onAction="#handleLogin" />
+</VBox>
